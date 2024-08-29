@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #333333;
+    background-color: #333333; 
     padding: 20px;
     color: #DB7093;
 }
@@ -24,7 +24,17 @@ body {
     background-color: black; /* Cor de fundo dentro da borda */
     border-radius: 8px; /* Borda arredondada */
 }
+h1, h2 {
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Transição suave para a animação */
+}
 
+.animated-text {
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+}
+
+.animated-text:hover {
+    color: #ff6f61; /* Cor do texto ao passar o mouse */
+    text-shadow: 2px 2px 5px rgba(255, 105, 97, 0.7); /* Sombra ao passar o mouse */
 h1 {
     text-align: center;
     margin-bottom: 20px;
