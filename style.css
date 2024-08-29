@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #333333; 
+    background-color: #333333;
     padding: 20px;
     color: #DB7093;
 }
@@ -19,51 +19,61 @@ body {
 .container {
     width: 90%;
     max-width: 800px;
-    border: 5px dashed #ff6f61; /* Borda de tracinho */
+    border: 5px dashed #ff6f61;
+    /* Borda de tracinho */
     padding: 20px;
-    background-color: black; /* Cor de fundo dentro da borda */
-    border-radius: 8px; /* Borda arredondada */
+    background-color: black;
+    /* Cor de fundo dentro da borda */
+    border-radius: 8px;
+    /* Borda arredondada */
 }
-h1, h2 {
-    transition: color 0.3s ease, text-shadow 0.3s ease; /* Transição suave para a animação */
+
+h1,
+h2 {
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    /* Transição suave para a animação */
 }
 
 .animated-text {
-    cursor: pointer; /* Muda o cursor para indicar interatividade */
+    cursor: pointer;
+    /* Muda o cursor para indicar interatividade */
 }
 
 .animated-text:hover {
-    color: #ff6f61; /* Cor do texto ao passar o mouse */
-    text-shadow: 2px 2px 5px rgba(255, 105, 97, 0.7); /* Sombra ao passar o mouse */
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #DB7093;
-}
+    color: #ff6f61;
+    /* Cor do texto ao passar o mouse */
+    text-shadow: 2px 2px 5px rgba(255, 105, 97, 0.7);
 
-.image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 20px auto;
-}
+    /* Sombra ao passar o mouse */
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #DB7093;
+    }
 
-section {
-    margin-bottom: 20px;
-}
+    .image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto 20px auto;
+    }
 
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    color: #DB7093;
-}
+    section {
+        margin-bottom: 20px;
+    }
 
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
+    h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        color: #DB7093;
+    }
 
-p {
-    margin-bottom: 10px;
-}
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
