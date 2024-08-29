@@ -19,7 +19,7 @@ body {
 .container {
     width: 90%;
     max-width: 800px;
-    border: 5px dashed #98ff98; /* Borda de tracinho */
+    border: 5px dashed #00aaff; /* Borda de tracinho */
     padding: 20px;
     background-color: black; /* Cor de fundo dentro da borda */
     border-radius: 8px; /* Borda arredondada */
