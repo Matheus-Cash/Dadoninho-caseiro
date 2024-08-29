@@ -40,7 +40,7 @@ h2 {
 }
 
 .animated-text:hover {
-    color:#FFC0CB;
+    color: #FFC0CB;
     /* Cor do texto ao passar o mouse */
     text-shadow: 2px 2px 5px rgba(255, 105, 97, 0. 7);
 }
@@ -54,14 +54,19 @@ h1 {
 }
 
 .animated-image {
-    width: 300px; /* Tamanho inicial da imagem */
-    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Transição suave para animação */
-    cursor: pointer; /* Muda o cursor para indicar interatividade */
+    width: 300px;
+    /* Tamanho inicial da imagem */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    /* Transição suave para animação */
+    cursor: pointer;
+    /* Muda o cursor para indicar interatividade */
 }
 
 .animated-image:hover {
-    transform: translateX(20px) scale(1.1); /* Move para a direita e aumenta o tamanho */
-    box-shadow: 0 0 15px rgba(255, 105, 97, 0.7); /* Adiciona sombra */
+    transform: translateX(20px) scale(1.1);
+    /* Move para a direita e aumenta o tamanho */
+    box-shadow: 0 0 15px rgba(255, 105, 97, 0.7);
+    /* Adiciona sombra */
 }
 
 .image {
