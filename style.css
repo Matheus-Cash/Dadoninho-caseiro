@@ -53,6 +53,17 @@ h1 {
     color: #DB7093;
 }
 
+.animated-image {
+    width: 300px; /* Tamanho inicial da imagem */
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Transição suave para animação */
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+}
+
+.animated-image:hover {
+    transform: translateX(20px) scale(1.1); /* Move para a direita e aumenta o tamanho */
+    box-shadow: 0 0 15px rgba(255, 105, 97, 0.7); /* Adiciona sombra */
+}
+
 .image {
     display: block;
     max-width: 100%;
