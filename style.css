@@ -40,7 +40,7 @@ h2 {
 }
 
 .animated-text:hover {
-    color: #ff6f61;
+    color:#FFC0CB;
     /* Cor do texto ao passar o mouse */
     text-shadow: 2px 2px 5px rgba(255, 105, 97, 0. 7);
 }
