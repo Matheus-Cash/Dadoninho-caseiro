@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     background-color: #f0f0f0;
     padding: 20px;
-    color: #FFB6C1;
+    color: #DB7093;
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #FFB6C1;
+    color: #DB7093;
 }
 
 .image {
@@ -46,7 +46,7 @@ h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    color: #FFB6C1;
+    color: #DB7093;
 }
 
 ul {
