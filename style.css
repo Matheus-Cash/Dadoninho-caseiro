@@ -39,43 +39,43 @@ h2 {
     /* Muda o cursor para indicar interatividade */
 }
 
-.animated-text:hover{
+.animated-text:hover {
     color: #ff6f61;
     /* Cor do texto ao passar o mouse */
     text-shadow: 2px 2px 5px rgba(255, 105, 97, 0. 7);
 }
-  
 
-    /* Sombra ao passar o mouse */
-    h1 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #DB7093;
-    }
 
-    .image {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto 20px auto;
-    }
+/* Sombra ao passar o mouse */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #DB7093;
+}
 
-    section {
-        margin-bottom: 20px;
-    }
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
 
-    h2 {
-        border-bottom: 2px solid #333;
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-        color: #DB7093;
-    }
+section {
+    margin-bottom: 20px;
+}
 
-    ul {
-        list-style-type: disc;
-        margin-left: 20px;
-    }
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #DB7093;
+}
 
-    p {
-        margin-bottom: 10px;
-    }
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
