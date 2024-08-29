@@ -13,3 +13,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const animatedImage = document.querySelector('.animated-image');
+
+    animatedImage.addEventListener('mouseover', () => {
+        // Inicia a animação de mover e aumentar
+        animatedImage.style.transition = 'transform 0.5s ease, box-shadow 0.5s ease';
+        animatedImage.style.transform = 'translateX(20px) scale(1.1)';
+        animatedImage.style.boxShadow = '0 0 15px rgba(255, 105, 97, 0.7)';
+    });
+
+    animatedImage.addEventListener('mouseout', () => {
+        // Reverte a animação para a posição original
+        animatedImage.style.transition = 'transform 0.5s ease, box-shadow 0.5s ease';
+        animatedImage.style.transform = 'translateX(0) scale(1)';
+        animatedImage.style.boxShadow = 'none';
+    });
+});
